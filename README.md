@@ -10,6 +10,8 @@ vagrant box add ubuntu/trusty64
 vagrant plugin install vagrant-hostsupdater
 ```
 
+上記を事前に実行してください。
+
 *usage*
 ```
 git clone https://github.com/miumiu0917/vagrantfile-career-college.git
