@@ -18,3 +18,4 @@ vagrant up
 ```
 
 python, 機械学習各種ライブラリ, Tensorflow, jupyternotebookなどがインストールされた仮想マシンが作成されます。
+[http://career.college.dev:8888]にアクセスするとjupyter notebookが利用できます。
