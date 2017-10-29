@@ -14,6 +14,7 @@ vagrant plugin install vagrant-hostsupdater
 
 
 ローカルのhostsの書き換えを行うので、管理者権限のCLIで実行してください。
+
 *usage*
 ```
 git clone https://github.com/miumiu0917/vagrantfile-career-college.git
