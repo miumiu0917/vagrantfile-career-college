@@ -4,6 +4,12 @@
 
 特にこだわりがなければ最新版のインストールを推奨します。
 
+*requirement*
+```
+vagrant box add ubuntu/trusty64
+vagrant plugin install vagrant-hostsupdater
+```
+
 *usage*
 ```
 git clone https://github.com/miumiu0917/vagrantfile-career-college.git

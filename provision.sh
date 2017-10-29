@@ -14,3 +14,15 @@ pyenv install 3.6.0
 pyenv global 3.6.0
 
 pip install numpy scipy matplotlib pandas pillow scikit-learn jupyter tensorflow
+
+git clone https://github.com/miumiu0917/jupyter_ml4se.git
+
+jupyter notebook --generate-config
+
+echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.port = 8080" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.token = ''" >> ~/.jupyter/jupyter_notebook_config.py
+
+nohup jupyter notebook &
